@@ -1,0 +1,25 @@
+{
+  "name": "webpanda",
+  "version": "0.0.1",
+  "description": "blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackazaru/webpanda.git"
+  },
+  "author": "Danik Tsyrkunov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackazaru/webpanda/issues"
+  },
+  "homepage": "https://github.com/blackazaru/webpanda",
+  "dependencies": {
+    "express": "^4.11.2",
+    "marked": "^0.3.3",
+    "node": "0.0.0",
+    "swag": "^0.7.0"
+  }
+}

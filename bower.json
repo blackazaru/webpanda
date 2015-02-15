@@ -1,0 +1,25 @@
+{
+  "name": "webpanda",
+  "version": "0.0.0",
+  "homepage": "https://github.com/blackazaru/webpanda",
+  "authors": [
+    "blackazaru <danik.cyrkunov@gmail.com>"
+  ],
+  "description": "Blog",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "vue": "~0.11.5",
+    "marked": "~0.3.3",
+    "jquery-file-upload": "~9.9.3"
+  }
+}

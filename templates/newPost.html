@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<div>
+    Title: <input type="text" name="title" id="title"><br>
+    Image: <input type="text" name="img" id="img"><br>
+
+    <div id="editor">
+        <textarea  class="ta" id="text"></textarea>
+        <div  class="input-div"></div>
+    </div>
+    <input type="submit" value="Submit" id="submit">
+</div>
+
+
+<script>
+    setInterval(function(){
+        $('.input-div').html(marked($("#text").val()));
+    },100);
+
+    $("#submit").click(function () {
+        savePost();
+    });
+
+    function savePost() {
+        var title = $("#title").val();
+        var text = $("#text").val();
+        var img = $("#img").val();
+        $.ajax({
+            url: "/blog/savePost",
+            type: "POST",
+            data: { title: title, text: text, img: img },
+            success: function (data) {
+                alert("Save");
+            }
+
+        });
+    }
+</script>
+
+{% endblock %}

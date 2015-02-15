@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block content %}
+<div class="contant-container">
+    {% for post in posts %}
+    <div class="mini-button" style="background: url('{{post.img}}') no-repeat; background-size: 100%;
+    background-position-y: 50%" post-id='{{post.id}}'>
+        <div class="title-on-button">{{post.title}}</div>
+        <div class="date-on-button">{{post.date}}</div>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    $(".mini-button").click(function () {
+        var id = $(this).attr("post-id");
+        window.location.href = "/blog/" + id;
+    });
+</script>
+{% endblock %}

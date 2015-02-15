@@ -1,0 +1,197 @@
+.header-container{
+    position: absolute;
+    width: 100%;
+    background: #ecf0f1;
+    height: 50px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    float: left;
+}
+.logo{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 15%;
+    height: 40px;
+    font-family: Chewy, sans-serif;
+    font-size: 35px;
+    color: rgba(65, 65, 65, 0.75);
+    
+}
+.logo:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.but-container{
+    width: 28%;
+    height: 40px;
+    margin-left: 60%;
+    margin-top: 5px;
+}
+
+.button-menu{
+    position: absolute;
+    font-size: 22px;
+    font-family: Chewy;
+    margin-top: 6px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.offset-button1{
+    margin-left: 20px;
+    color: rgba(65, 65, 65, 0.75);
+}
+.offset-button2{
+    margin-left: 20px;
+    color: rgba(65, 65, 65, 0.75);
+}
+.offset-button3{
+    margin-left: 20px;
+    color: rgba(65, 65, 65, 0.75);
+}
+.offset-button4{
+    margin-left: 20px;
+    color: rgba(65, 65, 65, 0.75);
+}
+
+
+.offset-button1:hover{
+    color: #3498db;
+    border-bottom: 4px solid #3498db;
+}
+.offset-button2:hover{
+    color: #e67e22;
+    border-bottom: 4px solid #e67e22;
+}
+.offset-button3:hover{
+    color: #e74c3c;
+    border-bottom: 4px solid #e74c3c;
+}
+.offset-button4:hover{
+    color: #1abc9c;
+    border-bottom: 4px solid #1abc9c;
+}
+
+
+
+
+
+
+
+.contant-container{
+    margin-top: 60px;
+    height: auto;
+    width: 70%;
+}
+
+.mini-button{
+    background-image: url('../image/header_bg.jpg');
+    width: 100%;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mini-button:hover{
+    cursor: pointer;
+}
+
+.preview-text{
+    position: absolute;
+    width: 700px;
+    background: red;
+    height: 100px;
+}
+
+
+.ta, #editor div {
+    display: inline-block;
+    width: 49%;
+    height: 500px;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 20px;
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.ta {
+    border: none;
+    border-right: 1px solid #414141;
+    resize: none;
+    outline: none;
+    background-color: #cafff0;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.title-on-button{
+    width:95%;
+    height: auto;
+    max-height: 210px;
+    border-left: 1px solid whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 3%;
+    padding-left: 15px;
+    overflow: hidden;
+    float: left;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.date-on-button{
+    width: 200px;
+    height: 20px;
+    padding-left: 15px;
+    margin-top: 240px;
+    margin-left: 3%;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.container-post{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+}
+
+.img-post{
+    background: url('../image/header_bg.jpg') center center no-repeat fixed #161616;
+    width: 100%;
+    height: 300px;
+}
+
+.post-title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 1px #000;
+}
+
+.post-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #161616;
+    width: 70%;
+    padding-top: 20px;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+
